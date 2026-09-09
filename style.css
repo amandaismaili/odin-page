@@ -1,0 +1,46 @@
+@import url('https://googleapis.com');
+
+body {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
