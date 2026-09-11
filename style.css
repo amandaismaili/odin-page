@@ -141,3 +141,32 @@ a {
     text-align: center;
     font-size: 19px;
 }
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    min-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.credit {
+    text-align: right;
+    max-width: 500px;
+    width: 100%;
+}
+
